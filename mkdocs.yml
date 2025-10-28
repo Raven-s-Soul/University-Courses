@@ -1,6 +1,10 @@
 site_name: University Courses
 theme:
   name: material
+  icon:
+    logo: fontawesome/solid/book-open
+#  logo: assets/logo.png
+  favicon: assets/logo.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -9,8 +13,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
+    - content.code.annotate
     - content.code.copy
+    - content.code.select
 
   font: false
 #    text: Roboto
@@ -25,7 +30,7 @@ theme:
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-      primary: indigo
+      primary: custom
       accent: deep purple
 
   # Palette toggle for light mode
@@ -34,7 +39,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-      primary: indigo
+      primary: custom
       accent: deep purple
 
 
@@ -56,14 +61,16 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.superfences
   - admonition
   - pymdownx.arithmatex:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.mark
   - pymdownx.tabbed:
       alternate_style: true
@@ -86,6 +93,11 @@ extra:
       link: /it/
       lang: it
 
+extra_javascript:
+  - javascripts/extra.js
+
+extra_css:
+  - stylesheets/extra.css
 
 copyright: |
   &copy; 2025 <a href="https://github.com/Raven-s-Soul"  target="_blank" rel="noopener">Sario Tedesco</a>
