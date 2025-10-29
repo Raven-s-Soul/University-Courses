@@ -1,10 +1,14 @@
 site_name: University Courses
+site_author: Sario Tedesco
+site_description: >
+    I wanna go home now...
 theme:
   name: material
   icon:
     logo: fontawesome/solid/book-open
 #  logo: assets/logo.png
   favicon: assets/logo.png
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -17,9 +21,9 @@ theme:
     - content.code.copy
     - content.code.select
 
-  font: false
-#    text: Roboto
-#    code:
+  font:
+    text: Open Sans
+    code: JetBrains Mono
 
   language: en
 
@@ -55,8 +59,18 @@ theme:
 
 
 plugins:
-  - social
   - search
+  - social:
+      cards_layout_options:
+        background_color: "#4e00ff"
+
+#        background_image: layouts/background.png
+#        background_color: transparent
+
+#        logo: docs/assets/logo.png
+
+#  - code-validator:
+#      enabled: !ENV [LINT, false]
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -85,6 +99,14 @@ extra:
       link: https://github.com/Raven-s-Soul
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/sario-tedesco/
+    - icon: /fontawesome/regular/envelope
+      name: Email
+      link: mailto:sariotedesco@gmail.com
+#    - icon: /fontawesome/brands/telegram
+#      link:
+    - icon: /fontawesome/brands/discord
+      link: https://discord.gg/jZFGnyJDwx
+
   alternate:
     - name: English
       link: /en/
@@ -93,11 +115,31 @@ extra:
       link: /it/
       lang: it
 
+nav:
+  - Homepage: index.md
+  - Year 1: Year1.md
+  - Year 2: Year2.md
+  - Year 3: Year3.md
+  - Thanks: Thanks.md
+
+not_in_nav: |
+  /ExampleTools.md
+  /Admin.md
+
 extra_javascript:
   - javascripts/extra.js
 
 extra_css:
   - stylesheets/extra.css
 
+watch:
+  - docs
+  - docs\assets
+  - docs\javascripts
+  - docs\stylesheets
+  - overrides
+  - overrides\partials
+
+
 copyright: |
-  &copy; 2025 <a href="https://github.com/Raven-s-Soul"  target="_blank" rel="noopener">Sario Tedesco</a>
+  <a href="https://github.com/Raven-s-Soul"  target="_blank" rel="noopener">Sario Tedesco</a>
