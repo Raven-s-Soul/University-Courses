@@ -56,7 +56,25 @@ theme:
       primary: indigo
       accent: deep purple
 
+nav:
+  - Homepage: index.md
+  - Anno I: Year1.md
+  - Anno II: Year2.md
+  - Anno III: Year3.md
+  - Thanks: Thanks.md
+  - Tools: ExampleTools.md
 
+not_in_nav: |
+  /ExampleTools.md
+  /Admin.md
+
+  # alternate:
+  #   - name: English
+  #     link: /en/
+  #     lang: en
+  #   - name: Italiano
+  #     link: /it/
+  #     lang: it
 
 plugins:
   - search
@@ -79,19 +97,39 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - admonition
   - pymdownx.arithmatex:
       generic: true
   - footnotes
   - pymdownx.details
   - pymdownx.mark
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+watch:
+  - docs
+  - docs\assets
+  - docs\javascripts
+  - docs\stylesheets
+  - overrides
+  - overrides\partials
 
 extra:
   social:
@@ -102,43 +140,10 @@ extra:
     - icon: /fontawesome/regular/envelope
       name: Email
       link: mailto:sariotedesco@gmail.com
-#    - icon: /fontawesome/brands/telegram
-#      link:
+  #  - icon: /fontawesome/brands/telegram
+  #    link:
     - icon: /fontawesome/brands/discord
       link: https://discord.gg/jZFGnyJDwx
-
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: Italiano
-      link: /it/
-      lang: it
-
-nav:
-  - Homepage: index.md
-  - Year 1: Year1.md
-  - Year 2: Year2.md
-  - Year 3: Year3.md
-  - Thanks: Thanks.md
-
-not_in_nav: |
-  /ExampleTools.md
-  /Admin.md
-
-extra_javascript:
-  - javascripts/extra.js
-
-extra_css:
-  - stylesheets/extra.css
-
-watch:
-  - docs
-  - docs\assets
-  - docs\javascripts
-  - docs\stylesheets
-  - overrides
-  - overrides\partials
 
 
 copyright: |
