@@ -6,6 +6,7 @@ theme:
   name: material
   icon:
     logo: fontawesome/solid/book-open
+    annotation: material/star-four-points-circle
 #  logo: assets/logo.png
   favicon: assets/logo.png
   custom_dir: overrides
@@ -103,13 +104,15 @@ markdown_extensions:
   - footnotes
   - pymdownx.details
   - pymdownx.mark
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
+  - md_in_html
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
 
 extra_javascript:
   - javascripts/extra.js
@@ -118,6 +121,8 @@ extra_javascript:
   - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 
 extra_css:
   - stylesheets/extra.css
