@@ -2,6 +2,9 @@ site_name: University Courses
 site_author: Sario Tedesco
 site_description: >
     I wanna go home now...
+
+use_directory_urls: true
+
 theme:
   name: material
   icon:
@@ -21,6 +24,8 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.code.select
+    - content.tooltips
+  #  - content.footnote.tooltips
 
   font:
     text: Open Sans
@@ -66,30 +71,21 @@ nav:
   - Tools: ExampleTools.md
 
 not_in_nav: |
-  /ExampleTools.md
-  /Admin.md
-
-  # alternate:
-  #   - name: English
-  #     link: /en/
-  #     lang: en
-  #   - name: Italiano
-  #     link: /it/
-  #     lang: it
+  ExampleTools.md
 
 plugins:
   - search
+  - glightbox
+  - minify: # https://github.com/byrnereese/mkdocs-minify-plugin
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
   - social:
       cards_layout_options:
         background_color: "#4e00ff"
-
 #        background_image: layouts/background.png
 #        background_color: transparent
-
 #        logo: docs/assets/logo.png
-
-#  - code-validator:
-#      enabled: !ENV [LINT, false]
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -101,40 +97,59 @@ markdown_extensions:
   - admonition
   - pymdownx.arithmatex:
       generic: true
-  - footnotes
+  # - footnotes
   - pymdownx.details
-  - pymdownx.mark
   - pymdownx.tabbed:
       alternate_style: true
+  - abbr
   - attr_list
   - md_in_html
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
 
 extra_javascript:
   - javascripts/extra.js
+#   Tecnicaly you can have both but is slower
+#   Math Alternative 1 (Functionality)
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  - javascripts/katex.js
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+#   Math Alternative 2 (Speed) - note the extra css too
+  # - javascripts/katex.js
+  # - https://unpkg.com/katex@0/dist/katex.min.js
+  # - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+  - javascripts/mermaid.mjs
 
 extra_css:
   - stylesheets/extra.css
-  - https://unpkg.com/katex@0/dist/katex.min.css
+  # - https://unpkg.com/katex@0/dist/katex.min.css
 
 watch:
   - docs
-  - docs\assets
-  - docs\javascripts
-  - docs\stylesheets
+  - docs/assets
+  - docs/javascripts
+  - docs/stylesheets
   - overrides
-  - overrides\partials
+  - overrides/partials
 
 extra:
   social:
@@ -142,13 +157,21 @@ extra:
       link: https://github.com/Raven-s-Soul
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/sario-tedesco/
-    - icon: /fontawesome/regular/envelope
+    - icon: fontawesome/solid/envelope
       name: Email
       link: mailto:sariotedesco@gmail.com
-  #  - icon: /fontawesome/brands/telegram
-  #    link:
-    - icon: /fontawesome/brands/discord
-      link: https://discord.gg/jZFGnyJDwx
+    # - icon: /fontawesome/brands/telegram
+    #   link: https:/
+    # - icon: /fontawesome/brands/discord
+    #   link: https://discord.gg/
+
+  # alternate:
+  # - name: English
+  #   link: /en/
+  #   lang: en
+  # - name: Italiano
+  #   link: /it/
+  #   lang: it
 
 
 copyright: |
