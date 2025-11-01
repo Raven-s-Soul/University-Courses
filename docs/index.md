@@ -1,17 +1,50 @@
-# Homepage
+---
+hide:
+  - navigation
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# INGEGNERIA INFORMATICA E DELL'INTELLIGENZA ARTIFICIALE
 
-## Commands
+<div class="grid cards" markdown>
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+- **Primo Anno**
 
-## Project layout
+      ***
 
-mkdocs.yml # The configuration file.
-docs/
-index.md # The documentation homepage.
-... # Other markdown pages, images and other files.
+      [:octicons-arrow-right-24: Apri](./Year1.md)
+
+- **Secondo Anno**
+
+      ***
+
+      [:octicons-arrow-right-24: Apri](./Year2.md)
+
+</div>
+
+<div class="grid cards" markdown>
+
+- **Terzo Anno** - Sistemi informatici
+
+      ***
+
+      [:octicons-arrow-right-24: Apri](./Year3.md)
+
+</div>
+
+---
+
+<div class="grid cards" markdown>
+
+- **Tabella dei Corsi**
+
+      ***
+
+      [:octicons-arrow-right-24: Apri](./Corsi.md)
+
+- **Ringraziamenti**
+
+      ***
+
+      [:octicons-arrow-right-24: Apri](./Thanks.md)
+
+</div>

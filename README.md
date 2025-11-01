@@ -7,6 +7,7 @@ Sito personale per raccogliere le mie repository e note organizzate in sezioni t
 > [!TIP]
 >
 > - mkdocs serve --livereload
+> - /ExampleTools/
 > - [Material reference](https://squidfunk.github.io/mkdocs-material/reference/)
 > - [Plugins](https://squidfunk.github.io/mkdocs-material/plugins/)
 > - [Setup guide](https://squidfunk.github.io/mkdocs-material/setup/)

@@ -2,7 +2,7 @@ site_name: University Courses
 site_author: Sario Tedesco
 site_description: >
     I wanna go home now...
-
+site_url: https://Raven-s-Soul.github.io/University-Courses/
 use_directory_urls: true
 
 theme:
@@ -64,17 +64,21 @@ theme:
 
 nav:
   - Homepage: index.md
+  - Corsi: Corsi.md
   - Anno I: Year1.md
   - Anno II: Year2.md
   - Anno III: Year3.md
   - Thanks: Thanks.md
-  - Tools: ExampleTools.md
+  # Is required for render the side nav, even if i will hide it later in the partials
+  - ExampleTools: ExampleTools.md
 
 not_in_nav: |
   ExampleTools.md
 
 plugins:
   - search
+      # exclude:
+      #       - ExampleTools.md
   - glightbox
   - minify: # https://github.com/byrnereese/mkdocs-minify-plugin
       minify_html: true
