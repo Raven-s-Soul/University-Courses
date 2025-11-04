@@ -29,17 +29,23 @@ hide:
 
       [:octicons-arrow-right-24: Apri](./Year3.md)
 
+- **Tabella dei Corsi**
+
+      ***
+
+      [:octicons-arrow-right-24: Apri](./Corsi.md)
+
 </div>
 
 ---
 
 <div class="grid cards" markdown>
 
-- **Tabella dei Corsi**
+- **Programmi utili**
 
       ***
 
-      [:octicons-arrow-right-24: Apri](./Corsi.md)
+      [:octicons-arrow-right-24: Apri](./Software.md)
 
 - **Ringraziamenti**
 

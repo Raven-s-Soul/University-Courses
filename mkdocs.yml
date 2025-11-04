@@ -64,11 +64,12 @@ theme:
 
 nav:
   - Homepage: index.md
-  - Corsi: Corsi.md
   - Anno I: Year1.md
   - Anno II: Year2.md
   - Anno III: Year3.md
-  - Thanks: Thanks.md
+  - Corsi: Corsi.md
+  - Programmi utili: Software.md
+  - Ringraziamenti: Thanks.md
   # Is required for render the side nav, even if i will hide it later in the partials
   - ExampleTools: ExampleTools.md
 

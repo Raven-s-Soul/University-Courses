@@ -1,4 +1,4 @@
-# Ringraziamenti
+# Ringrazio
 
 <div class="annotate" markdown>
 
@@ -12,6 +12,8 @@
 </div>
 
 1.  e sopportato
+
+---
 
 ### License
 
