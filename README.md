@@ -6,6 +6,7 @@ Sito personale per raccogliere le mie repository e note organizzate in sezioni t
 
 > [!TIP]
 >
+> - venv\Scripts\activate
 > - mkdocs serve --livereload
 > - `/ExampleTools/` for the examples
 > - [Partials Overrides](https://github.com/squidfunk/mkdocs-material/tree/master/src/templates/partials)
