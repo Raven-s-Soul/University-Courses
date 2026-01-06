@@ -26,7 +26,7 @@
 
       ***
 
-      [:octicons-arrow-right-24: Repository](# "Work in progress") :octicons-x-16:
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Fondamenti-di-Telecomunicazioni "Work in progress") :octicons-x-16:
 
 </div>
 1.  Sfortunatamente non ci sono molti appunti dato che è particolarmente facile rispetto al resto.

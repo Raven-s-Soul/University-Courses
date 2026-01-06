@@ -14,19 +14,19 @@
 
       ***
 
-      [:octicons-arrow-right-24: Repository](# "Work in progress") WIP
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Economia "Work in progress") :octicons-x-16:
 
 - **MOBILE COMPUTING / GAME DEVELOPMENT**
 
       ***
 
-      [:octicons-arrow-right-24: Repository](# "Work in progress") WIP
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Mobile-Computing)
 
 - **RETI DI CALCOLATORI**
 
       ***
 
-      [:octicons-arrow-right-24: Repository](# "Work in progress") WIP
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Reti-di-Calcolatori "Work in progress") :octicons-x-16:
 
 - **SISTEMI OPERATIVI**
 
@@ -50,7 +50,7 @@
 
       ***
 
-       [:octicons-arrow-right-24: Repository](# "Work in progress") :octicons-x-16:
+       [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/APS-Analisi-e-Progettazione-del-Software "Work in progress") :octicons-x-16:
 
 </div>
 
@@ -62,7 +62,7 @@
 
       ***
 
-      [:octicons-arrow-right-24: Repository](# "Work in progress") WIP
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Computer-Graphics "Work in progress") :octicons-x-16:
 
 - **MEDIA DIGITALI: TELEVISIONE, VIDEO, INTERNET** (1)
 

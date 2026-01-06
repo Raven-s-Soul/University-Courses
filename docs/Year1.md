@@ -8,13 +8,13 @@
 
       ***
 
-      [:octicons-arrow-right-24: Repository](# "Work in progress") :octicons-x-16:
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Analisi-Matematica-I "Work in progress") :octicons-x-16:
 
 - **GEOMETRIA E COMBINATORIA**
 
       ***
 
-      [:octicons-arrow-right-24: Repository](# "Work in progress") :octicons-x-16:
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Geometria-e-Combinatoria "Work in progress") :octicons-x-16:
 
 </div>
 
@@ -26,7 +26,7 @@
 
       ***
 
-      [:octicons-arrow-right-24: Repository](# "Work in progress") :octicons-x-16:
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Fisica-1 "Work in progress") :octicons-x-16:
 
 - **FONDAMENTI DI INFORMATICA**
 
