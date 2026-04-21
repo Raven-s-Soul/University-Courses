@@ -26,7 +26,7 @@
 
       ***
 
-      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Reti-di-Calcolatori "Work in progress") :octicons-x-16:
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Reti-di-Calcolatori)
 
 - **SISTEMI OPERATIVI**
 

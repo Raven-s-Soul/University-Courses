@@ -58,7 +58,7 @@
 
       ***
 
-      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Ricerca-Operativa)
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Ricerca-Operativa) :octicons-x-16:
 
   </div>
 
