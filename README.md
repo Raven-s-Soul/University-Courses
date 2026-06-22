@@ -8,6 +8,7 @@ Sito personale per raccogliere le mie repository e note organizzate in sezioni t
 >
 > - venv\Scripts\activate
 > - mkdocs serve --livereload
+> - mkdocs serve --livereload -a 127.0.0.1:9999
 > - `/ExampleTools/` for the examples
 > - [Partials Overrides](https://github.com/squidfunk/mkdocs-material/tree/master/src/templates/partials)
 > - [Material reference](https://squidfunk.github.io/mkdocs-material/reference/)
