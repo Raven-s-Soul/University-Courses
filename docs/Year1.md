@@ -2,21 +2,23 @@
 
 ### Primo Semestre
 
-<div class="grid cards" markdown>
+<div class="grid cards annotate" markdown>
 
 - **ANALISI MATEMATICA I**
 
       ***
 
-      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Analisi-Matematica-I "Work in progress") :octicons-x-16:
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Analisi-Matematica-I) (1)
 
 - **GEOMETRIA E COMBINATORIA**
 
       ***
 
-      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Geometria-e-Combinatoria "Work in progress") :octicons-x-16:
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Geometria-e-Combinatoria) (2)
 
-</div>
+  </div>
+1. Hard use of AI
+2. Hard use of AI
 
 ### Secondo Semestre
 
@@ -37,6 +39,7 @@
   </div>
 
 1. Contenuto diviso tra le cartelle `Modulo_1, Modulo_2 e Teoria`
+
 
 ## Idoneità
 
