@@ -62,7 +62,7 @@
 
       ***
 
-      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Computer-Graphics "Work in progress") :octicons-x-16:
+      [:octicons-arrow-right-24: Repository](https://github.com/Raven-s-Soul/Computer-Graphics )
 
 - **MEDIA DIGITALI: TELEVISIONE, VIDEO, INTERNET** (1)
 
